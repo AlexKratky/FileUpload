@@ -1,0 +1,25 @@
+{
+    "name": "alexkratky/fileupload",
+    "description": "Class to process file upload.",
+    "keywords": ["php", "file", "upload", "process", "data"],
+    "homepage": "https://panx.eu/",
+    "license": ["MIT"],
+    "authors": [{
+            "name": "Alex Kratky",
+            "homepage": "https://alexkratky.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "alexkratky/db": "^0.2.0"
+    },
+    "autoload": {
+        "files": [
+            "src/File.php",
+            "src/IFilenameGenerator.php",
+            "src/FilenameGenerator.php",
+            "src/FileUpload.php",
+            "src/FileSearch.php"
+        ]
+    }
+}
