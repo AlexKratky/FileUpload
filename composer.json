@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": ">=7.0",
-        "alexkratky/db": "^0.2.0"
+        "alexkratky/db": "^1.0.0"
     },
     "autoload": {
         "files": [
